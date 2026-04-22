@@ -11,3 +11,10 @@ void Camera::Connect() {
 void Camera::CaptureStream() {
     std::cout << "[Pars 5G] Stream started. Real-time data processing active.\n";
 }
+
+
+// ... Constructor implementatation ...
+
+Camera::~Camera() {
+    std::cout << "[System] Object scope ended. Resources released smoothly. Case closed.\n";
+}
