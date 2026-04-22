@@ -10,6 +10,7 @@ private:
 public:
     // Constructor Signature
     Camera(std::string _ip, int _fps);
+    ~Camera();         // Destructor (Yıkıcı)
 
     // Member Function Signatures (Methods)
     void Connect();
